@@ -11,7 +11,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repository') {
+        stage('Clone Repository') { 
             steps {
                 // Thực hiện clone dự án từ github về workspace khi một sự kiện xảy ra (push event)
                 git 'https://github.com/datptithcm/mangatoon-api-deployment.git'
