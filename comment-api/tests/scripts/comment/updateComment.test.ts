@@ -53,7 +53,7 @@ describe('Kiểm thử API chỉnh sửa bình luận', () => {
 
         expect(response.status).toBe(200)
         expect(response.data).toEqual({
-            data: false,
+            data: true,
             error: null
         })
     })
